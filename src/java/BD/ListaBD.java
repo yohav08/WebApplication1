@@ -13,7 +13,7 @@ import modelo.SesionDTO;
  * @author ESTUDIANTE
  */
 public class ListaBD {
-    public static List <SesionDTO> lista = new ArrayList<SesionDTO>;
+    public static List <SesionDTO> lista = new ArrayList<SesionDTO>();
     public static void cargarDatos(){
         SesionDTO d1 =  new SesionDTO("Yohav08@gmail.com", "1234567", "Yohana", "3104839109");
         SesionDTO d2 =  new SesionDTO("Mora@gmail.com", "1234567", "Andres", "3104839107");
